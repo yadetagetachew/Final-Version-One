@@ -1,23 +1,28 @@
 
 /* Nav Bar Begins */
+
+
+
 .navbar img{
     display: inline-block;
-    float: left;
+    float:left;
     width: 50px;
     height: 48px;
     margin-right: 5px;
+    
 }
 .navbar {
     overflow: hidden;
     background-color: #333;
     
+    
 }
 .navbar a {
     float: left;
     color: #f2f2f2;
-    padding: 14px 16px;
+    padding: 15px 19px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 19px;
     text-align: center;
 }
 .navbar a:hover {
@@ -40,13 +45,13 @@
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
     margin: 0;
+    font-size: 19px;
   }
   
 .dropdown button:hover {
@@ -88,6 +93,60 @@ body {
     height: 100%;
 }
 /* Nav Bar Ends */
+
+/* discount code starts */
+/* Add padding to containers */
+.container-discount {
+  padding: 16px;
+  /* background-color: rgb(241, 218, 218); */
+}
+.container-discount p{
+text-align: center;
+}
+
+/* Full-width input fields */
+input[type=textd], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin-left: 4vw;
+  margin-bottom: 3vw;
+  /* margin: 5px 0 22px 0; */
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: goldenrod;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  margin-left: 25vw;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* discount code starts */
+
 
 /* Contact Form */
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -246,12 +305,15 @@ html {
     margin-top: 40px;
   }
   img {
-      width: 100%;
+      width: 90%;
+      height: 560px;
   }
   
 .container-team {
-    padding: 0 16px;
+    padding: 0 26px;
     background-color: rgb(216, 148, 99);
+    padding-top: 15px;
+    margin-top: 9px;
   }
   
 .container-team::after, .row::after {
@@ -262,8 +324,11 @@ html {
   
 .title {
     color: rgb(26, 15, 15);
+    margin-bottom: 15px;
   }
   
+
+
 .button {
     border: none;
     outline: 0;
@@ -274,7 +339,8 @@ html {
     text-align: center;
     cursor: pointer;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 23px;
+    margin-top: 25px;
   }
   
 .button:hover {
@@ -487,10 +553,14 @@ transition: .3s;
     overflow: hidden;
   }
   .middle{
-    position:relative;
+    position:static;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-top: 40vw;
+    margin-left: 50vw;
   }
   .navigation{
     position: absolute;
@@ -550,9 +620,7 @@ transition: .3s;
   }
   /* slideshow ends */
 
-  /* video on testimonial starts*/
-.loopvideo{
-  margin-top: -6vw;
+  
   /* margin-left: 15vw; */
 }
 .loopvideo video{
@@ -562,7 +630,6 @@ transition: .3s;
  .paint video{
   width: 100%;
   height: auto;
-
 }
 h5{
   text-align: center;
@@ -777,4 +844,8 @@ video {
 .overlay {
     position:absolute;
     z-index:1;
+}
+#map iframe{
+  width:100%;
+  height: 37vw;
 }
