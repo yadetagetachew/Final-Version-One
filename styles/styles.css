@@ -95,22 +95,19 @@ body {
 /* Nav Bar Ends */
 
 /* discount code starts */
-/* Add padding to containers */
+
 .container-discount {
   padding: 16px;
-  /* background-color: rgb(241, 218, 218); */
 }
 .container-discount p{
 text-align: center;
 }
 
-/* Full-width input fields */
 input[type=textd], input[type=password] {
   width: 90%;
   padding: 15px;
   margin-left: 4vw;
   margin-bottom: 3vw;
-  /* margin: 5px 0 22px 0; */
   display: inline-block;
   border: none;
   background: #f1f1f1;
@@ -545,7 +542,14 @@ transition: .3s;
 
   .slides p{
     text-align: center;
-    margin-top: 180px;
+    margin-top: 160px;
+    font-size: 30px;
+    margin-left: -95px;
+  }
+  .p2 p{
+    margin-top: 10px;
+    margin-left: 8vw;
+    text-decoration: underline;
   }
   .slidershow{
     width: 700px;
@@ -557,9 +561,8 @@ transition: .3s;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-top: 40vw;
+
+    margin-top: 20vw;
     margin-left: 50vw;
   }
   .navigation{
@@ -630,6 +633,7 @@ transition: .3s;
  .paint video{
   width: 100%;
   height: auto;
+  margin-top: -8vw;
 }
 h5{
   text-align: center;
@@ -815,12 +819,13 @@ textarea{
 
 .content img {
  height: 48px;
-    width:48px;
+  width:48px;
 }
 .reserved {
-    line-height: 55px;
-    float: left;
-    font-size: 20px;
+  line-height: 55px;
+  float: left;
+  font-size: 20px;
+  margin-left: 1vw;
 }
 /* css for about page footer */
 /* .siteFooterBarAbout{
