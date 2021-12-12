@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     <!-- nav starts -->
@@ -13,49 +14,63 @@
     <div class="navbar">
         <img src="/media/kicksk.png">
         <a href="/pages/home.html">Home</a>
-        <div class="dropdown"> 
-            <button class="dropbtn">Contact</button>  
-            <div class="dropdown-content">
-                <a href="/pages/contact.html">Reach out</a>
-                </div>
-            </div>
+        <a href="/pages/gallery.html">Gallery</a>
+        <a href="/pages/contact.html">Contact</a>
      <div class="dropdown"> 
             <button class="dropbtn">About</button>  
             <div class="dropdown-content">
                 <a href="/pages/about.html">Mission</a>
                 <a href="/pages/team.html">Team</a>
+                <a href="/pages/testimonial.html">Testimonial</a>
                 </div>
         </div>
     </nav> 
     <!-- nav ends -->
-    <H1>Contact Form</H1>
-    <div class="container">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="Email">Email</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+    <H1>Get In Touch</H1>
+    
+    <div class="contact-page">
+        
+         <div class="contact-info">
+        <div class="item">
+             <i class="icon fas fa-home"></i>
+              Oakland, United States
+        </div>
+             <div class="item">
+              <i class="icon fas fa-phone"></i>
+              (281) 330-8004
+        </div>
+            <div class="item">
+              <i class="icon fas fa-envelope"></i>
+              thebesttodoit@getitdone.com
+            </div>
+        <div class="item">
+              <i class="icon fas fa-clock"></i>
+              Mon - Fri 8:00 AM to 6:00 PM
+            </div>
+          </div>
+      <form action="" class="contact-form">
+            <input type="text" class="textb" placeholder="Your Name">
+            <input type="email" class="textb" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" class="btn" value='Send'>
+          </form>
+        </div>
 
-          <label for="country">City</label>
-          <select id="city" name="City">
-            <option value="SF">San Francisco Bay Area</option>
-            <option value="LA">Los Angeles</option>
-            <option value="NY">New York</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
-      </div>
+<!-- google map -->
+
+<div id="map"></div>
+</div>
+
+
+
+
+
+
+
+
       <footer>
         <div class="siteFooterBar">
-            <div class="reserved">2014 © All rights reserved.</div>
+            <div class="reserved">2020 © All rights reserved.</div>
             <div class="content">
                 <img src="/media/mail.png" >
                 <img src="/media/Instagram.png" >
